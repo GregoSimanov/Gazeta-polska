@@ -10,39 +10,54 @@
       background: #f9f9f9;
       color: #222;
     }
-    header {
-      background: #c40000;
+
+   header {
+     background: #c40000;
       color: white;
       padding: 20px;
       text-align: center;
     }
-    header h1 {
+
+  header h1 {
       margin: 0;
       font-size: 32px;
       letter-spacing: 2px;
     }
+
     .headline {
       color: #c40000;
       font-size: 36px;
       font-weight: bold;
-      margin-top: 20px;
+      margin: 20px 0;
+      text-align: center;
     }
-    .lead {
+
+   .lead {
       font-size: 20px;
       color: #444;
-      margin-bottom: 15px;
-    }
-    article p {
+      margin: 0 auto 20px auto;
+      max-width: 800px;
       line-height: 1.6;
+    }
+
+   article {
+      max-width: 800px;
+  margin: auto;
+      padding: 0 20px;
+    }
+
+  article p {
+  line-height: 1.6;
       margin-bottom: 12px;
     }
-    footer {
-      background: #eee;
-      text-align: center;
-      padding: 10px;
-      font-size: 14px;
-      color: #555;
-      margin-top: 30px;
+
+  footer {
+  background: #eee;
+  text-align: center;
+   padding: 10px;
+   font-size: 14px;
+   color: #555;
+   margin-top: 30px;
     }
   </style>
 </head>
@@ -55,12 +70,12 @@
     <h2 class="headline">Tajemnicze ślady dzika w samolocie</h2>
     <p class="lead"><strong>Warszawa, 22 września 2025 r.</strong> – Wczorajszy lot z Warszawy do Londynu...</p>
 
-    <article>
-      <p>Incydent miał miejsce 21 września, tuż po wylądowaniu maszyny na lotnisku Heathrow...</p>
+   <article>
+  <p>Incydent miał miejsce 21 września, tuż po wylądowaniu maszyny na lotnisku Heathrow...</p>
       <p>Samolot, Boeing 737 obsługujący trasę Warszawa-Londyn, wystartował z Lotniska Chopina...</p>
-      <p>Dochodzenie w sprawie prowadzi brytyjska policja lotniskowa we współpracy z polskimi służbami...</p>
+      <p>Dochodzenie w sprawie prowadzi brytyjska policja lotniskowa...</p>
       <p>Reakcje w sieci są mieszane: od śmiechu po teorie spiskowe. Hashtag <strong>#DzikWSamolocie</strong>...</p>
-      <p>Na razie tajemnica pozostaje nierozwiązana. Linie lotnicze zapewniają, że samolot został dokładnie wyczyszczony...</p>
+      <p>Na razie tajemnica pozostaje nierozwiązana...</p>
     </article>
   </main>
 
@@ -69,4 +84,3 @@
   </footer>
 </body>
 </html>
-Fix styles – added CSS for colors and layout
