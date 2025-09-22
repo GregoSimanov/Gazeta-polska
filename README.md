@@ -69,3 +69,4 @@
   </footer>
 </body>
 </html>
+Fix styles – added CSS for colors and layout
